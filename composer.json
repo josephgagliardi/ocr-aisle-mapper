@@ -1,0 +1,31 @@
+{
+    "name": "Homestead Improved",
+    "description": "See here: http://www.sitepoint.com/quick-tip-get-homestead-vagrant-vm-running/",
+    "require": {
+        "php": ">=7",
+        "symfony/console": "~2.0",
+        "symfony/process": "~2.0",
+        "silex/silex": "^2.2",
+        "twig/twig": "^2.4",
+        "thiagoalessio/tesseract_ocr": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Bruno Skvorc",
+            "email": "bruno.skvorc@sitepoint.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Homestead\\": "src/"
+        }
+    },
+    "bin": [
+        "homestead"
+    ]
+}
